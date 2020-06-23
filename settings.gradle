@@ -1,0 +1,4 @@
+include ':base'
+include ':RatioBar'
+include ':app'
+rootProject.name = "MyCustomViews"
