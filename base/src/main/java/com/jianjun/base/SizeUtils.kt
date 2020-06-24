@@ -15,3 +15,9 @@ val Float.px: Float
         this, Resources.getSystem().displayMetrics
     )
 
+val Float.sp: Float
+    get() = TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_SP,
+        this, Resources.getSystem().displayMetrics
+    )
+
